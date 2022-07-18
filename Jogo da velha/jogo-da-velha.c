@@ -1,4 +1,4 @@
-//Grupo: 
+//Grupo: Rafael Freire, Gustavo, Giovana e Isaque 
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
