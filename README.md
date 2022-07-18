@@ -1,2 +1,2 @@
 # LP
- Exercícios de lógia de programação
+ Exercícios da matéria de lógica de programação
