@@ -10,9 +10,9 @@ int main(){
 
   printf("String: ");
   fgets(s, sizeof(s), stdin);
-  s[sizeof(s)-1] = '\0';
+  s[strlen(s)-1] = '\0';
 
-  for(int i=0; i<sizeof(s); i++){
+  for(int i=0; i<strlen(s); i++){
     if(s[i] == 'a'){
       contador++;
       s[i] = 'b';

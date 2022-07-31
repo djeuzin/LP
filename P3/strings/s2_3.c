@@ -12,7 +12,7 @@ int main(){
   for(int i=0; i<5; i++){
     printf("Nome: ");
     fgets(nomes[i], sizeof(nomes[i]), stdin);
-    nomes[i][sizeof(nomes[i])-1] = '\0';
+    nomes[i][strlen(nomes[i])-1] = '\0';
   }
 
   printf("\n");
@@ -27,7 +27,7 @@ int main(){
 
   printf("Digite o nome que deseja buscar: ");
   fgets(chave, sizeof(chave), stdin);
-  chave[sizeof(chave)-1]='\0';
+  chave[strlen(chave)-1]='\0';
 
 
   /*strcmp(str1, str2) retorna:
